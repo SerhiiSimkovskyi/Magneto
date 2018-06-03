@@ -8,26 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		5083CEC620B97C340016D8EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5083CEC520B97C340016D8EE /* AppDelegate.m */; };
-		5083CEC920B97C340016D8EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5083CEC820B97C340016D8EE /* ViewController.m */; };
+		5083CEC920B97C340016D8EE /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5083CEC820B97C340016D8EE /* MainVC.m */; };
 		5083CECC20B97C340016D8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5083CECA20B97C340016D8EE /* Main.storyboard */; };
 		5083CECF20B97C340016D8EE /* Magneto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5083CECD20B97C340016D8EE /* Magneto.xcdatamodeld */; };
 		5083CED120B97C340016D8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5083CED020B97C340016D8EE /* Assets.xcassets */; };
 		5083CED420B97C340016D8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5083CED220B97C340016D8EE /* LaunchScreen.storyboard */; };
 		5083CED720B97C340016D8EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5083CED620B97C340016D8EE /* main.m */; };
+		5083CEDF20B988990016D8EE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5083CEDE20B988990016D8EE /* MapKit.framework */; };
+		5083CEE120B98EF10016D8EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5083CEE020B98EF10016D8EE /* CoreLocation.framework */; };
+		5083CF0C20BD8BA60016D8EE /* PinsListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5083CF0B20BD8BA60016D8EE /* PinsListVC.m */; };
+		5083CF0F20BD8BD00016D8EE /* EditPinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5083CF0E20BD8BD00016D8EE /* EditPinVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5083CEC120B97C340016D8EE /* Magneto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magneto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5083CEC420B97C340016D8EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5083CEC520B97C340016D8EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5083CEC720B97C340016D8EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5083CEC820B97C340016D8EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5083CEC720B97C340016D8EE /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		5083CEC820B97C340016D8EE /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 		5083CECB20B97C340016D8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5083CECE20B97C340016D8EE /* Magneto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Magneto.xcdatamodel; sourceTree = "<group>"; };
 		5083CED020B97C340016D8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5083CED320B97C340016D8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5083CED520B97C340016D8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5083CED620B97C340016D8EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5083CEDE20B988990016D8EE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5083CEE020B98EF10016D8EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5083CF0A20BD8BA60016D8EE /* PinsListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinsListVC.h; sourceTree = "<group>"; };
+		5083CF0B20BD8BA60016D8EE /* PinsListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinsListVC.m; sourceTree = "<group>"; };
+		5083CF0D20BD8BD00016D8EE /* EditPinVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditPinVC.h; sourceTree = "<group>"; };
+		5083CF0E20BD8BD00016D8EE /* EditPinVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditPinVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5083CEE120B98EF10016D8EE /* CoreLocation.framework in Frameworks */,
+				5083CEDF20B988990016D8EE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +58,7 @@
 			children = (
 				5083CEC320B97C340016D8EE /* Magneto */,
 				5083CEC220B97C340016D8EE /* Products */,
+				5083CEDD20B988990016D8EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +73,31 @@
 		5083CEC320B97C340016D8EE /* Magneto */ = {
 			isa = PBXGroup;
 			children = (
+				5083CF1020BD8BFE0016D8EE /* Res */,
 				5083CEC420B97C340016D8EE /* AppDelegate.h */,
 				5083CEC520B97C340016D8EE /* AppDelegate.m */,
-				5083CEC720B97C340016D8EE /* ViewController.h */,
-				5083CEC820B97C340016D8EE /* ViewController.m */,
+				5083CEC720B97C340016D8EE /* MainVC.h */,
+				5083CEC820B97C340016D8EE /* MainVC.m */,
+				5083CF0A20BD8BA60016D8EE /* PinsListVC.h */,
+				5083CF0B20BD8BA60016D8EE /* PinsListVC.m */,
+				5083CF0D20BD8BD00016D8EE /* EditPinVC.h */,
+				5083CF0E20BD8BD00016D8EE /* EditPinVC.m */,
+			);
+			path = Magneto;
+			sourceTree = "<group>";
+		};
+		5083CEDD20B988990016D8EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5083CEE020B98EF10016D8EE /* CoreLocation.framework */,
+				5083CEDE20B988990016D8EE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5083CF1020BD8BFE0016D8EE /* Res */ = {
+			isa = PBXGroup;
+			children = (
 				5083CECA20B97C340016D8EE /* Main.storyboard */,
 				5083CED020B97C340016D8EE /* Assets.xcassets */,
 				5083CED220B97C340016D8EE /* LaunchScreen.storyboard */,
@@ -71,7 +105,7 @@
 				5083CED620B97C340016D8EE /* main.m */,
 				5083CECD20B97C340016D8EE /* Magneto.xcdatamodeld */,
 			);
-			path = Magneto;
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,12 +134,17 @@
 		5083CEB920B97C340016D8EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Serhii Simkovskyi";
 				TargetAttributes = {
 					5083CEC020B97C340016D8EE = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -145,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5083CEC920B97C340016D8EE /* ViewController.m in Sources */,
+				5083CF0C20BD8BA60016D8EE /* PinsListVC.m in Sources */,
+				5083CEC920B97C340016D8EE /* MainVC.m in Sources */,
+				5083CF0F20BD8BD00016D8EE /* EditPinVC.m in Sources */,
 				5083CECF20B97C340016D8EE /* Magneto.xcdatamodeld in Sources */,
 				5083CED720B97C340016D8EE /* main.m in Sources */,
 				5083CEC620B97C340016D8EE /* AppDelegate.m in Sources */,
@@ -188,6 +229,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -195,6 +237,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -222,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -243,6 +286,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -250,6 +294,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -271,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -285,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69K53ADJ4U;
 				INFOPLIST_FILE = Magneto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartphoneware.Magneto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69K53ADJ4U;
 				INFOPLIST_FILE = Magneto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartphoneware.Magneto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
